@@ -1,4 +1,4 @@
-# Deep Weighted Consensus
+# DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction
 
 This repo is the implementation of [**DPC**](https://arxiv.org/). 
 
