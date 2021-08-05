@@ -71,7 +71,7 @@ class ShapeCorrTemplate(LightningModule):
 
         if (batch_idx % (self.hparams.log_every_n_steps if self.hparams.mode != 'test' else 1) == 0):
             for k, v in all.items():
-                self.logger.experiment.add_scalar(f"{k}/step", v)
+                self.logger.experiment.add_scalar(f"{k}/step", v,self.global_step)
 
         if self.vis_iter():
             self.visualize(batch, mode=mode)
@@ -197,7 +197,7 @@ class ShapeCorrTemplate(LightningModule):
             val = s / len(lst)
             self.tracks[name] = val
 
-            self.logger.experiment.add_scalar(name, val)
+            self.logger.experiment.add_scalar(name, val, self.current_epoch)
 
 
         return dict_of_lists

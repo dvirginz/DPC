@@ -29,7 +29,6 @@ display_id = 0
 from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import TensorBoardLogger
 
-
 def main():
     os.makedirs('output/tmp', exist_ok=True)
     """Initialize all the parsers, before training init."""
@@ -59,7 +58,6 @@ def main_train(model_class_pointer, hparams,parser):
 
 
     model.hparams.log_to_dir = extract_model_path_for_hyperparams(model.hparams.default_root_dir, model, model.hparams,)
-    
     logger = TensorBoardLogger(save_dir=model.hparams.log_to_dir,name='',default_hp_metric=False)
     logger.log_hyperparams(model.hparams)
     print(f"\nLog directory:\n{model.hparams.log_to_dir}\n")
