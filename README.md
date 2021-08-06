@@ -7,6 +7,8 @@ This repo is the implementation of [**DPC**](https://arxiv.org/).
 
 ![Architecture](./data/images/dpc_arch.png)
 &nbsp;
+![Cross Similarity](./data/images/cross_similarity.png)
+&nbsp;
 ![Tizzer](./data/images/dpc_tizzer.png)
 
 
