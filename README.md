@@ -101,6 +101,6 @@ python train_point_corr.py --show_vis --do_train false --resume_from_checkpoint 
 # Citing & Authors
 If you find this repository helpful feel free to cite our publication -
 
-  Deep Weighted Consensus.
+  DPC: Unsupervised Deep Point Correspondence.
 
 Contact person: [Anonymous submission](Anonymous mail)
