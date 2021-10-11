@@ -8,8 +8,7 @@ This repo is the implementation of [**DPC**](https://arxiv.org/).
 ![Architecture](./data/images/dpc_arch.png)
 &nbsp;
 ![Cross Similarity](./data/images/cross_similarity.png)
-&nbsp;
-![Tizzer](./data/images/dpc_tizzer.png)
+
 
 
 ## Tested environment
@@ -103,4 +102,4 @@ If you find this repository helpful feel free to cite our publication -
 
   DPC: Unsupervised Deep Point Correspondence.
 
-Contact person: [Anonymous submission](Anonymous mail)
+Contact person: [Dvir Ginzburg](mailto:dvirginz@gmail.com)
