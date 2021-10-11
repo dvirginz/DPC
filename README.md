@@ -102,4 +102,4 @@ If you find this repository helpful feel free to cite our publication -
 
   DPC: Unsupervised Deep Point Correspondence.
 
-Contact person: [Dvir Ginzburg](mailto:dvirginz@gmail.com)
+Contact: [Dvir Ginzburg](mailto:dvirginz@gmail.com), [Itai Lang](mailto:itai.lang83@gmail.com )
