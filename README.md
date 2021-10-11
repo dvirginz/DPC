@@ -95,7 +95,7 @@ python train_point_corr.py --show_vis --do_train false --resume_from_checkpoint 
 ```
 
 
-![Results](./data/images/dpc_results.png)
+![Results](./data/images/dpc_result.png)
 &nbsp;
 # Citing & Authors
 If you find this repository helpful feel free to cite our publication -
