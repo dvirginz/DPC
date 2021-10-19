@@ -2,6 +2,8 @@
 
 This repo is the implementation of [**DPC**](https://arxiv.org/). 
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dpc-unsupervised-deep-point-correspondence/3d-dense-shape-correspondence-on-shrec-19)](https://paperswithcode.com/sota/3d-dense-shape-correspondence-on-shrec-19?p=dpc-unsupervised-deep-point-correspondence)
+
 
 &nbsp;
 
