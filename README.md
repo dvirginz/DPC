@@ -1,6 +1,6 @@
-# DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction
+# DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction (3DV 2021)
 
-This repo is the implementation of [**DPC**](https://arxiv.org/). 
+This repo is the implementation of [**DPC**](https://arxiv.org/abs/2110.08636). 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dpc-unsupervised-deep-point-correspondence/3d-dense-shape-correspondence-on-shrec-19)](https://paperswithcode.com/sota/3d-dense-shape-correspondence-on-shrec-19?p=dpc-unsupervised-deep-point-correspondence)
 
@@ -102,6 +102,15 @@ python train_point_corr.py --show_vis --do_train false --resume_from_checkpoint 
 # Citing & Authors
 If you find this repository helpful feel free to cite our publication -
 
-  DPC: Unsupervised Deep Point Correspondence.
+```
+@misc{lang2021dpc,
+      title={DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction}, 
+      author={Itai Lang and Dvir Ginzburg and Shai Avidan and Dan Raviv},
+      year={2021},
+      eprint={2110.08636},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 Contact: [Dvir Ginzburg](mailto:dvirginz@gmail.com), [Itai Lang](mailto:itai.lang83@gmail.com )
