@@ -27,4 +27,4 @@ data/datasets/*
 !data/datasets/surreal
 data/datasets/surreal/*
 !data/datasets/surreal/datas_surreal_test.pth
-
+!data/docs/*

@@ -1,5 +1,7 @@
 # DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction (3DV 2021)
 
+[[Paper]](https://arxiv.org/abs/2110.08636) [[Video]](https://youtu.be/1DRDNh3RBn0) [[Slides]](./data/docs/slides.pdf) [[Poster]](./data/docs/poster.pdf)
+
 This repo is the implementation of [**DPC**](https://arxiv.org/abs/2110.08636). 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dpc-unsupervised-deep-point-correspondence/3d-dense-shape-correspondence-on-shrec-19)](https://paperswithcode.com/sota/3d-dense-shape-correspondence-on-shrec-19?p=dpc-unsupervised-deep-point-correspondence)
@@ -113,4 +115,4 @@ If you find this repository helpful feel free to cite our publication -
 }
 ```
 
-Contact: [Dvir Ginzburg](mailto:dvirginz@gmail.com), [Itai Lang](mailto:itai.lang83@gmail.com )
+Contact: [Dvir Ginzburg](mailto:dvirginz@gmail.com), [Itai Lang](mailto:itai.lang83@gmail.com).
