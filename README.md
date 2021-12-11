@@ -105,13 +105,12 @@ python train_point_corr.py --show_vis --do_train false --resume_from_checkpoint 
 If you find this repository helpful feel free to cite our publication -
 
 ```
-@misc{lang2021dpc,
-      title={DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction}, 
-      author={Itai Lang and Dvir Ginzburg and Shai Avidan and Dan Raviv},
-      year={2021},
-      eprint={2110.08636},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{lang2021dpc,
+    author={Itai Lang and Dvir Ginzburg and Shai Avidan and Dan Raviv},
+    title={{DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction}},
+    booktitle = {Proceedings of the International Conference on 3D Vision (3DV)},
+    pages = {1442--1451},
+    year={2021}
 }
 ```
 
