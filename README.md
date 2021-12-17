@@ -1,6 +1,6 @@
 # DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction (3DV 2021)
 
-[[Paper]](https://arxiv.org/abs/2110.08636) [[Video]](https://youtu.be/1DRDNh3RBn0) [[Slides]](./data/docs/slides.pdf) [[Poster]](./data/docs/poster.pdf)
+[[Paper]](https://arxiv.org/abs/2110.08636) [[Introduction Video (2 minutes)]](https://slideslive.com/38972252/dpc-unsupervised-deep-point-correspondence-via-cross-and-self-construction?ref=account-96722-latest) [[Introduction Slides]](./data/docs/introduction_slides.pdf) [[Full Video (10 minutes)]](https://slideslive.com/38972393/dpc-unsupervised-deep-point-correspondence-via-cross-and-self-construction?ref=account-96722-latest) [[Full Slides]](./data//docs/full_slides.pdf) [[Poster]](./data/docs/poster.pdf)
 
 This repo is the implementation of [**DPC**](https://arxiv.org/abs/2110.08636). 
 
