@@ -110,9 +110,9 @@ def main_train(model_class_pointer, hparams,parser):
         if(hparams.resume_from_checkpoint is not None):
             model = model.load_from_checkpoint(hparams.resume_from_checkpoint,hparams=model.hparams, map_location=torch.device(f"cpu"))
 
-    trainer.test(model)
+    test_out = trainer.test(model)
 
-    return model
+    return test_out, model
 
 
 if __name__ == "__main__":

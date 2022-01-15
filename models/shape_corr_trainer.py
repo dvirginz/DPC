@@ -279,13 +279,15 @@ class ShapeCorrTemplate(LightningModule):
         return label,pinput1,input2,ratio_list,soft_labels
 
     @staticmethod
-    def compute_acc(label, ratio_list, soft_labels, p,input2,track_dict={}):
+    def compute_acc(label, ratio_list, soft_labels, p,input2,track_dict={},hparams=Namespace()):
         corr_tensor = ShapeCorrTemplate._prob_to_corr_test(p)
 
         hit = label.argmax(-1).squeeze(0)
         pred_hit = p.squeeze(0).argmax(-1)
         target_dist = square_distance(input2.squeeze(0), input2.squeeze(0)) 
         track_dict["acc_mean_dist"] = target_dist[pred_hit,hit].mean().item()
+        if(getattr(hparams,'dataset_name','') == 'tosca' or (hparams.mode == 'test' and hparams.test_on_tosca)):
+            track_dict["acc_mean_dist"] /= 3 # TOSCA is not scaled to meters as the other datasets. /3 scales the shapes to be coherent with SMAL (animals as well)
 
 
         acc_000 = ShapeCorrTemplate._label_ACC_percentage_for_inference(corr_tensor, label.unsqueeze(0))

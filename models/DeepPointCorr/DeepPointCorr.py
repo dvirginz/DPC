@@ -239,7 +239,7 @@ class DeepPointCorr(ShapeCorrTemplate):
 
 
 
-        _ = self.compute_acc(label, ratio_list, soft_labels, p,input2,track_dict=self.tracks)
+        _ = self.compute_acc(label, ratio_list, soft_labels, p,input2,track_dict=self.tracks,hparams=self.hparams)
 
         self.log_test_step()
         if self.vis_iter():

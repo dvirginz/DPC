@@ -127,7 +127,7 @@ def init_parse_argparse_default_params(parser, dataset_name=None, arch=None):
         "--default_root_dir", default=os.path.join(os.getcwd(), "output", task_name), help="The path to store this run output"
     )
     parser.add_argument(
-        "--show_vis", type=str2bool, nargs="?", const=True, default=True, help="If true logs visualizations (run time)"
+        "--show_vis", type=str2bool, nargs="?", const=True, default=False, help="If true logs visualizations (run time)"
     )
     parser.add_argument(
         "--show_recon_vis", type=str2bool, nargs="?", const=True, default=True, help="If true logs visualizations of reconstructions (run time)"

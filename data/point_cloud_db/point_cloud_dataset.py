@@ -128,9 +128,10 @@ class PointCloudDataset(Dataset):
         parser.add_argument("--split", default="train", help="Which data to fetch")
 
         parser.add_argument("--num_neighs", type=int, default=40, help="Num of nearest neighbors to use")
-        
+        parser.add_argument("--tosca_all_pairs", nargs="?", default=False, type=str2bool, const=True)
+        parser.add_argument("--tosca_cross_pairs", nargs="?", default=False, type=str2bool, const=True)
 
-        if(parser.parse_known_args()[0].dataset_name in ['surreal']):
+        if(parser.parse_known_args()[0].dataset_name in ['surreal','smal']):
             parser.set_defaults(limit_train_batches=1000,limit_val_batches=200)
         return parser
 
