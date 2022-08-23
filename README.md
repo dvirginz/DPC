@@ -108,11 +108,11 @@ If you find this repository helpful feel free to cite our publication -
 
 ```
 @InProceedings{lang2021dpc,
-    author={Itai Lang and Dvir Ginzburg and Shai Avidan and Dan Raviv},
-    title={{DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction}},
-    booktitle = {Proceedings of the International Conference on 3D Vision (3DV)},
-    pages = {1442--1451},
-    year={2021}
+  author = {Lang, Itai and Ginzburg, Dvir and Avidan, Shai and Raviv, Dan},
+  title = {{DPC: Unsupervised Deep Point Correspondence via Cross and Self Construction}},
+  booktitle = {Proceedings of the International Conference on 3D Vision (3DV)},
+  pages = {1442--1451},
+  year = {2021}
 }
 ```
 
