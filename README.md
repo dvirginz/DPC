@@ -2,7 +2,8 @@
 
 [[Paper]](https://arxiv.org/abs/2110.08636) [[Introduction Video (2 minutes)]](https://slideslive.com/38972252/dpc-unsupervised-deep-point-correspondence-via-cross-and-self-construction) [[Introduction Slides]](./data/docs/introduction_slides.pdf) [[Full Video (10 minutes)]](https://slideslive.com/38972393/dpc-unsupervised-deep-point-correspondence-via-cross-and-self-construction) [[Full Slides]](./data//docs/full_slides.pdf) [[Poster]](./data/docs/poster.pdf)
 
-This repo is the implementation of [**DPC**](https://arxiv.org/abs/2110.08636). 
+This repo is the implementation of [**DPC**](https://arxiv.org/abs/2110.08636). Created by [Itai Lang*](https://itailang.github.io/), [Dvir Ginzburg*](https://scholar.google.com/citations?user=VGWubxYAAAAJ&hl=en), [Shai Avidan](http://www.eng.tau.ac.il/~avidan/), and [Dan Raviv](https://www.raviv.sites.tau.ac.il/) from Tel Aviv University. <br>
+*Equal contribution 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dpc-unsupervised-deep-point-correspondence/3d-dense-shape-correspondence-on-shrec-19)](https://paperswithcode.com/sota/3d-dense-shape-correspondence-on-shrec-19?p=dpc-unsupervised-deep-point-correspondence)
 
